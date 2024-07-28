@@ -7,12 +7,12 @@ import MobileNav from "./MobileNav";
 
 const Header = () => {
   return (
-    <header className="py-8 xl:py-10 text-white">
+    <header className="py-8 xl:pt-10 xl:pb-4 text-white">
       <div className="container max-auto flex justify-between">
         {/* Logo */}
         <Link href="/">
           <h1 className="text-2xl font-semibold">
-            Terêncio<span className="text-accent">.</span>
+          <span className="text-accent"> &lt;</span>Terêncio<span className="text-accent">&#47;&gt;</span>
           </h1>
         </Link>
 
