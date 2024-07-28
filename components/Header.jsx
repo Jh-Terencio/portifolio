@@ -3,6 +3,7 @@ import { Button } from "./ui/button"
 
 // Componemts
 import Nav from "./Nav";
+import MobileNav from "./MobileNav";
 
 const Header = () => {
   return (
@@ -24,7 +25,9 @@ const Header = () => {
         </div>
 
         {/* Mobile nav */}
-        <div className="xl:hidden">Mobile nav</div>
+        <div className="xl:hidden">
+          <MobileNav/>
+        </div>
 
       </div>
     </header>
