@@ -18,7 +18,7 @@ const Home = () => {
               Hello I'm <br /> <span className="text-accent">João Terêncio</span>
             </h1>
             <p className="max-w-[500px] mb-8 text-white/80">
-            I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies
+            I specialize in Data Science, web development, and RPA automation, using tools like Python, React, and Power BI to create efficient digital solutions.
             </p>
 
             {/* Download CV e Redes sociais */}
